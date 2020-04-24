@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "image": "/assets/images/aliceNchains.jpg",
+      "clicked": false
+    },
+    {
+      "id": 2,
+      "image": "/assets/images/deftones.jpg",
+      "clicked": false
+    },
+    {
+      "id": 3,
+      "image": "/assets/images/thegates.jpg",
+      "clicked": false
+    },
+    {
+      "id": 4,
+      "image": "/assets/images/opeth.jpg",
+      "clicked": false
+    },
+    {
+      "id": 5,
+      "image": "/assets/images/metallica.jpg",
+      "clicked": false
+    },
+    {
+      "id": 6,
+      "image": "/assets/images/gojira.jpg",
+      "clicked": false
+    },
+    {
+      "id": 7,
+      "image": "/assets/images/SOAD.jpg",
+      "clicked": false
+    },
+    {
+      "id": 8,
+      "image": "/assets/images/mastodon.jpg",
+      "clicked": false
+    },
+    {
+      "id": 9,
+      "image": "/assets/images/sabbath.jpg",
+      "clicked": false
+    },
+    {
+      "id": 10,
+      "image": "/assets/images/tool.jpg",
+      "clicked": false
+    },
+    {
+      "id": 11,
+      "image": "/assets/images/maiden.jpg",
+      "clicked": false
+    },
+    {
+      "id": 12,
+      "image": "/assets/images/converge.jpg",
+      "clicked": false
+    }
+  ]
