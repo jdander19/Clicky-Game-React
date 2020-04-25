@@ -1,9 +1,10 @@
 import React from 'react';
-import Album from '../data.json';
+import data from '../../data.json';
+import Album from "../album/album"
 
 
-const Clickitem = props => (
- 
+const Clickitem = props => {
+ return(
   <div
     className={
       props.shake
@@ -11,8 +12,8 @@ const Clickitem = props => (
         : 'container d-flex flex-wrap justify-content-center'
     }
   >
-    {props.Album.map((a, i) => <Album name={a} key={i} clickEvent={props.clickEvent} />)}
+    {data.map((a, i) => <Album name={a} key={i} clickEvent={props.clickEvent} />)}
   </div>
-);
+ )}
 
 export default Clickitem;
