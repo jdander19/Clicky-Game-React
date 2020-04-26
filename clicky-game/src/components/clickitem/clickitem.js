@@ -1,19 +1,12 @@
 import React from 'react';
-import data from '../../data.json';
-import Album from "../album/album"
+import './clickitem.css';
 
-
-const Clickitem = props => {
- return(
-  <div
-    className={
-      props.shake
-        ? 'container d-flex flex-wrap justify-content-center shake'
-        : 'container d-flex flex-wrap justify-content-center'
-    }
-  >
-    {data.map((a, i) => <Album name={a} key={i} clickEvent={props.clickEvent} />)}
+const clickItem = props => (
+  <div className="card" onClick={e => props.handleClick(e.target.src)}>
+    <img className="card-img-top card-height" src={props.name} alt="" />
   </div>
- )}
+);
 
-export default Clickitem;
+
+export default clickItem;
+
